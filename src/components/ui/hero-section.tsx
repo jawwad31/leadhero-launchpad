@@ -1,10 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
 import heroImage from "@/assets/hero-dashboard.jpg";
-
 const HeroSection = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background gradients */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-secondary"></div>
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-pulse-slow"></div>
@@ -19,7 +17,7 @@ const HeroSection = () => {
               </span>
             </div>
             
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl mb-6 leading-tight text-[#f5b400] font-extrabold">
               Transform Your Business with Lead Hero
             </h1>
             
@@ -28,19 +26,12 @@ const HeroSection = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button 
-                size="lg" 
-                className="bg-gradient-hero hover:opacity-90 transition-all duration-300 glow-primary group"
-              >
+              <Button size="lg" className="bg-gradient-hero hover:opacity-90 transition-all duration-300 glow-primary group">
                 Start Your Free Trial
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               
-              <Button 
-                size="lg" 
-                variant="outline" 
-                className="border-primary/20 hover:bg-primary/10 group"
-              >
+              <Button size="lg" variant="outline" className="border-primary/20 hover:bg-primary/10 group">
                 <Play className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
                 Watch Demo
               </Button>
@@ -66,11 +57,7 @@ const HeroSection = () => {
           
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-elegant">
-              <img 
-                src={heroImage} 
-                alt="Lead Hero CRM Dashboard" 
-                className="w-full h-auto animate-float"
-              />
+              <img src={heroImage} alt="Lead Hero CRM Dashboard" className="w-full h-auto animate-float" />
               <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent"></div>
             </div>
             
@@ -80,8 +67,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
