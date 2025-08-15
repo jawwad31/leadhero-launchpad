@@ -65,19 +65,18 @@ const HeroSection = () => {
             </div>
           </div>
           
-          <div className="relative">
-            <div className="relative rounded-2xl overflow-hidden shadow-elegant">
+          <div className="relative z-10">
+            <div className="relative rounded-2xl border-4 border-red-500 bg-white p-2">
               <img 
                 src="/lovable-uploads/a20241bd-64ce-45d0-9b17-ab0d69bdc285.png"
                 alt="Lead Hero CRM Dashboard"
-                className="w-full h-auto animate-float"
+                className="w-full h-auto max-w-full"
                 onLoad={() => console.log('Image loaded successfully')}
                 onError={(e) => {
                   console.error('Image failed to load:', e);
                   console.log('Attempted path:', e.currentTarget.src);
                 }}
               />
-              
             </div>
             
             {/* Floating elements */}
