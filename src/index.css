@@ -97,7 +97,7 @@ All colors MUST be HSL.
   }
 
   #root {
-    @apply text-left;
+    /* Removed text-left to allow proper text centering in sections */
   }
 
   /* Custom animations */
