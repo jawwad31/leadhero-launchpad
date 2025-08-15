@@ -71,6 +71,11 @@ const HeroSection = () => {
                 src="/lovable-uploads/a20241bd-64ce-45d0-9b17-ab0d69bdc285.png"
                 alt="Lead Hero CRM Dashboard"
                 className="w-full h-auto animate-float"
+                onLoad={() => console.log('Image loaded successfully')}
+                onError={(e) => {
+                  console.error('Image failed to load:', e);
+                  console.log('Attempted path:', e.currentTarget.src);
+                }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent"></div>
             </div>
