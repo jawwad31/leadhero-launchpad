@@ -3,8 +3,7 @@ import { ArrowRight, Play } from "lucide-react";
 // no image import needed – file is in /public
 
 const HeroSection = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background gradients */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-secondary"></div>
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-pulse-slow"></div>
@@ -30,7 +29,7 @@ const HeroSection = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button size="lg" className="bg-gradient-hero hover:opacity-90 transition-all duration-300 glow-primary group">
+              <Button size="lg" className="bg-gradient-hero hover:opacity-90 transition-all duration-300 glow-primary group text-white">
                 Start Your Free Trial
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
@@ -63,18 +62,12 @@ const HeroSection = () => {
           <div className="relative">
             {/* allow the image to extend a bit past the grid on large screens */}
             <div className="relative rounded-2xl overflow-hidden shadow-elegant lg:-mr-12 xl:-mr-20">
-              <img
-                src="/LH-Dashboard.png"          /* rename to remove spaces if you haven’t: LH-Dashboard.png */
-                alt="Lead Hero CRM Dashboard"
-                className="
+              <img src="/LH-Dashboard.png" /* rename to remove spaces if you haven’t: LH-Dashboard.png */ alt="Lead Hero CRM Dashboard" className="
                   h-auto
                   w-[620px] sm:w-[740px]         /* tablet */
                   lg:w-[920px] xl:w-[1350px]     /* desktop sizes – adjust up/down as you like */
                   animate-float
-                "
-                loading="eager"
-                fetchPriority="high"
-              />
+                " loading="eager" fetchPriority="high" />
               <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent"></div>
             </div>
 
@@ -84,8 +77,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
