@@ -67,7 +67,7 @@ const HeroSection = () => {
           <div className="relative z-10">
             <div className="relative rounded-2xl overflow-hidden shadow-elegant">
               <img 
-                src={heroImage}
+                src="/LH-Dashboard.png" 
                 alt="Lead Hero CRM Dashboard showcasing analytics, lead management, and business insights"
                 className="w-full h-auto animate-float"
               />
