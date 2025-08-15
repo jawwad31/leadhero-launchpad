@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
-// Remove the old import for heroImage
-// import heroImage from "@/assets/hero-dashboard.jpg";
+import heroImage from "@/assets/crm-dashboard-hero.jpg";
 
 const HeroSection = () => {
   return (
@@ -66,16 +65,11 @@ const HeroSection = () => {
           </div>
           
           <div className="relative z-10">
-            <div className="relative rounded-2xl border-4 border-red-500 bg-white p-2">
+            <div className="relative rounded-2xl overflow-hidden shadow-elegant">
               <img 
-                src="/lovable-uploads/a20241bd-64ce-45d0-9b17-ab0d69bdc285.png"
-                alt="Lead Hero CRM Dashboard"
-                className="w-full h-auto max-w-full"
-                onLoad={() => console.log('Image loaded successfully')}
-                onError={(e) => {
-                  console.error('Image failed to load:', e);
-                  console.log('Attempted path:', e.currentTarget.src);
-                }}
+                src={heroImage}
+                alt="Lead Hero CRM Dashboard showcasing analytics, lead management, and business insights"
+                className="w-full h-auto animate-float"
               />
             </div>
             
