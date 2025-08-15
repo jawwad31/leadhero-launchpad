@@ -77,7 +77,7 @@ const HeroSection = () => {
                   console.log('Attempted path:', e.currentTarget.src);
                 }}
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent"></div>
+              
             </div>
             
             {/* Floating elements */}
