@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
-import heroImage from "@/assets/crm-dashboard-hero.jpg";
 const HeroSection = () => {
   return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background gradients */}
@@ -57,7 +56,7 @@ const HeroSection = () => {
           
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-elegant">
-              <img src={heroImage} alt="Lead Hero CRM Dashboard" className="w-full h-auto animate-float" />
+              <img src="/lovable-uploads/a20241bd-64ce-45d0-9b17-ab0d69bdc285.png" alt="Lead Hero CRM Dashboard" className="w-full h-auto animate-float" />
               <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent"></div>
             </div>
             
