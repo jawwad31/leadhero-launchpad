@@ -10,7 +10,7 @@ const HeroSection = () => {
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="text-center lg:text-left">
+          <div className="text-center">
             <div className="mb-6">
               <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary/10 text-primary border border-primary/20">
                 ⚡ Powered by Advanced AI
@@ -25,7 +25,7 @@ const HeroSection = () => {
               The ultimate all-in-one CRM platform that captures, nurtures, and converts leads with intelligent automation and powerful analytics.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-gradient-hero hover:opacity-90 transition-all duration-300 glow-primary group text-white">
                 Start Your Free Trial
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -37,7 +37,7 @@ const HeroSection = () => {
               </Button>
             </div>
             
-            <div className="mt-8 flex items-center justify-center lg:justify-start space-x-6">
+            <div className="mt-8 flex items-center justify-center space-x-6">
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary">14 Days</div>
                 <div className="text-sm text-muted-foreground">Free Trial</div>
