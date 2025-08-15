@@ -69,7 +69,7 @@ const HeroSection = () => {
               <img 
                 src="/LH-Dashboard.png" 
                 alt="Lead Hero CRM Dashboard showcasing analytics, lead management, and business insights"
-                className="w-full h-auto animate-float"
+                className="w-full h-full animate-float"
               />
             </div>
             
