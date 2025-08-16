@@ -11,8 +11,8 @@ const HeroSection = () => {
       <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-primary/5 rounded-full blur-3xl animate-float"></div>
       
       <div className="relative max-w-full mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="text-center lg:text-left">
+        <div className="grid lg:grid-cols-5 gap-12 items-center">
+          <div className="text-center lg:text-left lg:col-span-2">
             <div className="mb-6">
               <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary/10 text-primary border border-primary/20">
                 ⚡ Powered by Advanced AI
@@ -64,7 +64,7 @@ const HeroSection = () => {
             </div>
           </div>
           
-          <div className="relative z-10">
+          <div className="relative z-10 lg:col-span-3">
             <div className="relative rounded-2xl overflow-hidden shadow-elegant">
               <img 
                 src="/LH-Dashboard.png" 
