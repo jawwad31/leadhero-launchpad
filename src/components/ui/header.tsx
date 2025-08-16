@@ -29,7 +29,7 @@ const Header = () => {
             <Button variant="ghost" className="hidden sm:inline-flex">
               Sign In
             </Button>
-            <Button className="bg-gradient-hero hover:opacity-90 transition-all duration-300 glow-primary">
+            <Button variant="gradient" className="glow-primary">
               Start Free Trial
             </Button>
           </div>

@@ -29,8 +29,9 @@ const HeroSection = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button 
+                variant="gradient"
                 size="lg" 
-                className="bg-gradient-hero hover:opacity-90 transition-all duration-300 glow-primary group"
+                className="glow-primary group"
               >
                 Start Your Free Trial
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
