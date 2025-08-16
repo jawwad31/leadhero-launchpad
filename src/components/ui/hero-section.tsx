@@ -10,9 +10,9 @@ const HeroSection = () => {
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-pulse-slow"></div>
       <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-primary/5 rounded-full blur-3xl animate-float"></div>
 
-      <div className="relative mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-8 py-20">
+      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
         {/* Make the image column wider than the text column on large screens */}
-        <div className="grid items-center gap-12 lg:grid-cols-[0.8fr_1.5fr]">
+        <div className="grid items-center gap-12 lg:grid-cols-[1fr_1.35fr]">
           {/* Left: text */}
           <div className="text-center lg:text-left">
             <div className="mb-6">
@@ -69,7 +69,7 @@ const HeroSection = () => {
                 className="
                   h-auto
                   w-[620px] sm:w-[740px]         /* tablet */
-                  lg:w-[920px] xl:w-[1350px]     /* desktop sizes – adjust up/down as you like */
+                  lg:w-[920px] xl:w-[1100px]     /* desktop sizes – adjust up/down as you like */
                   animate-float
                 "
                 loading="eager"
