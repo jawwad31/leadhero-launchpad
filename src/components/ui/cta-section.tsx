@@ -22,7 +22,7 @@ const CTASection = () => {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Join thousands of service businesses that have revolutionized their client acquisition and management with Lead Hero. Start your free trial today and see the difference.
+            Join thousands of businesses that have revolutionized their client acquisition and management with Lead Hero. Start your free trial today and see the difference.
           </p>
         </div>
         

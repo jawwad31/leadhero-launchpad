@@ -16,11 +16,11 @@ const HeroSection = () => {
             </div>
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Transform Your Service Business with Lead Hero
+              Transform Your Business with Lead Hero
             </h1>
             
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl">
-              The ultimate all-in-one CRM platform designed for service businesses to capture, nurture, and convert leads with intelligent automation and powerful analytics.
+              The ultimate all-in-one CRM platform designed for businesses to capture, nurture, and convert leads with intelligent automation and powerful analytics.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">

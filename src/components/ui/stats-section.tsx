@@ -1,7 +1,7 @@
 const stats = [{
   number: "50K+",
   label: "Active Users",
-  description: "Service businesses trust Lead Hero"
+  description: "Businesses trust Lead Hero"
 }, {
   number: "2M+",
   label: "Leads Generated",
@@ -24,11 +24,11 @@ const StatsSection = () => {
           <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-white">
             Trusted by Thousands of{" "}
             <span className="bg-gradient-hero bg-clip-text text-slate-50">
-              Service Businesses
+              Businesses
             </span>
           </h2>
           <p className="text-xl text-muted-foreground">
-            Join the service businesses that have transformed their client acquisition and management with Lead Hero
+            Join the businesses that have transformed their client acquisition and management with Lead Hero
           </p>
         </div>
         
