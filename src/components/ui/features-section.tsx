@@ -30,8 +30,8 @@ const features = [{
   description: "Create professional websites and landing pages without coding skills."
 }, {
   icon: Shield,
-  title: "White Label Solution",
-  description: "Rebrand the platform as your own and offer CRM services to your clients."
+  title: "Service Management",
+  description: "Manage your service offerings, track project progress, and deliver exceptional client experiences."
 }, {
   icon: Smartphone,
   title: "Mobile App",
@@ -42,13 +42,13 @@ const FeaturesSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-center text-white">
-            Everything You Need to{" "}
+            Everything Your Service Business Needs to{" "}
             <span className="bg-gradient-hero bg-clip-text text-slate-50">
-              Scale Your Business
+              Thrive and Grow
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Lead Hero combines powerful CRM capabilities with advanced automation tools to help you capture more leads, close more deals, and grow faster.
+            Lead Hero combines powerful CRM capabilities with advanced automation tools designed specifically for service businesses to capture more leads, manage client relationships, and scale operations.
           </p>
         </div>
         
