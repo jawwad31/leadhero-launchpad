@@ -1,10 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
 import heroImage from "@/assets/crm-dashboard-hero.jpg";
-
 const HeroSection = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background gradients */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-secondary"></div>
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-pulse-slow"></div>
@@ -14,9 +12,7 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-5 gap-12 items-center">
           <div className="text-center lg:text-left lg:col-span-2">
             <div className="mb-6">
-              <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary/10 text-primary border border-primary/20">
-                ⚡ Powered by Advanced AI
-              </span>
+              
             </div>
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
@@ -28,20 +24,12 @@ const HeroSection = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button 
-                variant="gradient"
-                size="lg" 
-                className="glow-primary group"
-              >
+              <Button variant="gradient" size="lg" className="glow-primary group">
                 Start Your Free Trial
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               
-              <Button 
-                size="lg" 
-                variant="outline" 
-                className="border-primary/20 hover:bg-primary/10 group"
-              >
+              <Button size="lg" variant="outline" className="border-primary/20 group bg-slate-50 text-slate-950">
                 <Play className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
                 Watch Demo
               </Button>
@@ -49,12 +37,12 @@ const HeroSection = () => {
             
             <div className="mt-8 flex items-center justify-center lg:justify-start space-x-6">
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">14 Days</div>
-                <div className="text-sm text-muted-foreground">Free Trial</div>
+                <div className="text-2xl font-bold text-primary">Plug n Play</div>
+                <div className="text-sm text-muted-foreground">Setup</div>
               </div>
               <div className="w-px h-8 bg-border"></div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">24/7</div>
+                <div className="text-2xl font-bold text-primary">Free</div>
                 <div className="text-sm text-muted-foreground">Support</div>
               </div>
               <div className="w-px h-8 bg-border"></div>
@@ -67,11 +55,7 @@ const HeroSection = () => {
           
           <div className="relative z-10 lg:col-span-3">
             <div className="relative rounded-2xl overflow-hidden shadow-elegant">
-              <img 
-                src="/LH-Dashboard.png" 
-                alt="Lead Hero CRM Dashboard showcasing analytics, lead management, and business insights"
-                className="w-full h-full animate-float"
-              />
+              <img src="/LH-Dashboard.png" alt="Lead Hero CRM Dashboard showcasing analytics, lead management, and business insights" className="w-full h-full animate-float" />
             </div>
             
             {/* Floating elements */}
@@ -80,8 +64,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
